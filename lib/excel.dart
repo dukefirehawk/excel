@@ -1,6 +1,7 @@
 library excel;
 
 import 'dart:convert';
+import 'dart:math';
 import 'dart:typed_data';
 import 'package:archive/archive.dart';
 import 'package:equatable/equatable.dart';
@@ -35,3 +36,4 @@ part 'src/sheet/formula.dart';
 part 'src/sheet/cell_index.dart';
 part 'src/sheet/cell_style.dart';
 part 'src/sheet/font_style.dart';
+part 'src/sheet/header_footer.dart';
